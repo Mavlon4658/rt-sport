@@ -183,6 +183,7 @@ textarea {
 .home li p {
   white-space: nowrap;
   font-size: 18px;
+  opacity: 0;
 }
 .home li:nth-child(1) {
   top: 0;
@@ -255,6 +256,16 @@ textarea {
   bottom: -13px;
   left: 4px;
 }
+@media screen and (max-width: 1830px) {
+  .home li:nth-child(5) p {
+    width: 310px;
+    min-width: 250px;
+    white-space: inherit;
+  }
+  .home li:nth-child(5) p br {
+    display: none;
+  }
+}
 .home li:nth-child(6) {
   top: 207px;
   left: 100%;
@@ -268,6 +279,16 @@ textarea {
   bottom: 33px;
   left: 4px;
 }
+@media screen and (max-width: 1830px) {
+  .home li:nth-child(6) p {
+    width: 260px;
+    min-width: 250px;
+    white-space: inherit;
+  }
+  .home li:nth-child(6) p br {
+    display: none;
+  }
+}
 .home li:nth-child(7) {
   bottom: 62px;
   left: 100%;
@@ -280,6 +301,16 @@ textarea {
   position: absolute;
   top: -13px;
   left: 4px;
+}
+@media screen and (max-width: 1830px) {
+  .home li:nth-child(7) p {
+    width: 290px;
+    min-width: 250px;
+    white-space: inherit;
+  }
+  .home li:nth-child(7) p br {
+    display: none;
+  }
 }
 .home li:nth-child(8) {
   bottom: -4px;
@@ -353,6 +384,16 @@ textarea {
 .home li:nth-child(12) p {
   text-align: right;
 }
+@media screen and (max-width: 1830px) {
+  .home li:nth-child(12) p {
+    width: 280px;
+    min-width: 250px;
+    white-space: inherit;
+  }
+  .home li:nth-child(12) p br {
+    display: none;
+  }
+}
 .home li:nth-child(12) svg {
   position: absolute;
   top: -15px;
@@ -369,6 +410,16 @@ textarea {
 .home li:nth-child(13) p {
   text-align: right;
 }
+@media screen and (max-width: 1830px) {
+  .home li:nth-child(13) p {
+    width: 270px;
+    min-width: 250px;
+    white-space: inherit;
+  }
+  .home li:nth-child(13) p br {
+    display: none;
+  }
+}
 .home li:nth-child(13) svg {
   position: absolute;
   top: 38px;
@@ -384,8 +435,23 @@ textarea {
 .home li:nth-child(14) p {
   text-align: right;
 }
+@media screen and (max-width: 1830px) {
+  .home li:nth-child(14) p {
+    width: 280px;
+    min-width: 250px;
+    white-space: inherit;
+  }
+  .home li:nth-child(14) p br {
+    display: none;
+  }
+}
 .home li:nth-child(14) svg {
   position: absolute;
   bottom: -10px;
   right: 0;
+}
+@media screen and (max-width: 1830px) {
+  .home li:nth-child(14) svg {
+    bottom: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
