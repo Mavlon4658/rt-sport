@@ -1,10 +1,12 @@
 const boxWrap = document.querySelector('.box-wrap');
 const list = document.querySelectorAll('.box-wrap ul li');
+const h3 = document.querySelector('.box-wrap h3');
 
 boxWrap.onmouseenter = () => {
     list.forEach(el => {
         el.classList.add('show');
     })
+    h3.classList.add('hidden');
 }
 
 list[1].onmouseenter = () => {
@@ -42,9 +44,11 @@ list[9].onmouseleave = () => {
 const mbBox = document.querySelector('.mobile-box');
 const mbListWrap = document.querySelector('.mobile ul');
 const mbList = document.querySelectorAll('.mobile ul li');
+const mbH3 = document.querySelector('.mobile-box h3');
 
 mbBox.onclick = () => {
     mbListWrap.classList.add('active');
+    mbH3.classList.add('hidden');
 }
 
 mbList.forEach(el => {

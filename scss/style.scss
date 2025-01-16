@@ -743,6 +743,36 @@ textarea {
                     }
                 }
             }
+
+            h3 {
+                position: absolute;
+                bottom: -50px;
+                left: 50%;
+                transform: translate(-50%, 100%);
+                font-size: 18px;
+                font-weight: 500;
+                color: rgba(0, 0, 0, 0.5);
+                white-space: nowrap;
+
+                @include media(1550) {
+                    bottom: -40px;
+                }
+
+                span {
+                    border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+                }
+
+                img {
+                    position: absolute;
+                    right: -10px;
+                    top: -30px;
+                    transform: translateX(100%);
+                }
+
+                &.hidden {
+                    display: none !important;
+                }
+            }
         }
     }
 
@@ -779,6 +809,32 @@ textarea {
                 position: absolute;
                 top: 46px;
                 left: 79px;
+            }
+
+            h3 {
+                position: absolute;
+                font-size: 12px;
+                color: rgba(0, 0, 0, 0.5);
+                bottom: -30px;
+                left: 50%;
+                transform: translate(-50%, 100%);
+
+                &.hidden {
+                    display: none !important;
+                }
+
+                span {
+                    border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+                }
+
+                img {
+                    position: absolute;
+                    right: -3px;
+                    top: -26px;
+                    transform: translateX(100%);
+                    left: auto;
+                    width: auto;
+                }
             }
         }
 
@@ -1116,8 +1172,7 @@ textarea {
             }
             
             h4 {
-                color: #000;
-                opacity: 0.5;
+                color: rgba(0, 0, 0, 0.5);
                 font-size: 12px;
                 border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
                 
